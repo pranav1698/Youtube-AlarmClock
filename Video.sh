@@ -18,7 +18,7 @@ do
     then
         L=$LINE
         echo $L
-        firefox $L
+        xdg-open $L
     fi
     ((LINE_NUM++))
 done 
