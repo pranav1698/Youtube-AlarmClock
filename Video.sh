@@ -12,7 +12,7 @@ R=$(($RANDOM%10))
 
 #Reading the text file and opening the site 
 LINE_NUM=1
-less ./movies-list.txt | while read LINE 
+less ./videos.txt | while read LINE 
 do
     if [ "$R" == "$LINE_NUM" ] 
     then
